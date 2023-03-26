@@ -196,7 +196,7 @@ blockquote {
 
 b,
 strong {
-  font-weight: bolder;
+  font-weight: 600;
 }
 
 small, .small {
@@ -4042,7 +4042,7 @@ textarea.form-control-lg {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.25rem !important;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -11432,7 +11432,7 @@ html {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 30rem;
+  width: 40rem;
 }
 
 @media (min-width: 992px) {
@@ -11499,5 +11499,9 @@ html {
 }
 
 .projects-img {
-  width: 26rem;
+  width: 40rem;
+}
+
+.text-lg {
+  font-size: 1.25rem;
 }
